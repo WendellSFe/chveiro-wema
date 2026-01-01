@@ -1,0 +1,83 @@
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+
+/* Cabeçalho */
+header {
+  background: #002147; /* azul escuro */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menu */
+nav {
+  background: #d4af37; /* dourado */
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  margin: 0 15px;
+  color: #002147;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seções */
+section {
+  padding: 20px;
+}
+section h2 {
+  color: #002147;
+  margin-bottom: 10px;
+}
+
+/* Lista de serviços */
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+ul li i {
+  margin-right: 8px;
+  color: #d4af37;
+}
+
+/* Botão WhatsApp */
+.cta {
+  background: #d4af37;
+  color: #002147;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.whatsapp-btn {
+  display: inline-block;
+  background: #25D366;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+.whatsapp-btn i {
+  margin-right: 8px;
+}
+
+/* Rodapé */
+footer {
+  background: #002147;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
